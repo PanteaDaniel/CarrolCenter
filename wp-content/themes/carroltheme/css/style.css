@@ -2,7 +2,71 @@
 {
   background-color: #8d2c8a;
 }
+.headerContainer
+{
+  background-image: url("headerimg.png");
+  height: 390px;
 
+
+}
+.lentilaContainer
+{
+  height: 343px;
+  width: 967px;
+
+  padding-top: 63px;
+  padding-left: 277px;
+}
+.lentila
+{
+  height: 100%;
+  width: 100%;
+
+  background-color: rgba(141, 44, 138, .5);
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 180px;
+  border-top-right-radius: 200px;
+
+  border-bottom-right-radius: 140px;
+}
+.lentilaTitle
+{
+  padding-left: 110px;
+  padding-top: 50px;
+  margin-bottom: 10px;
+  font-family: "myriad pro";
+  font-weight: bold;
+  font-size:60px;
+  color: white;
+}
+.lentilaText
+{
+  display: inline;
+  font-family: "myriad pro";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 26px;
+  color: white;
+
+
+
+}
+.lentilaTextContainer
+{
+  padding-left: 110px;
+  padding-right: 103px;
+
+}
+.qoutationMark1
+{
+  vertical-align: bottom;
+  margin-bottom: 23px;
+}
+.qoutationMark2
+{
+  vertical-align: top;
+  margin-top: 15px;
+}
 footer
 {
   background-color: #28389c;
@@ -45,4 +109,94 @@ footer
 .footerTextContainer
 {
   padding-top: 42px;
+}
+@media only screen and (max-width:500px){
+    .footerInfo
+    {
+      font-size: 20px;
+    }
+    .footerText
+    {
+      font-size: 15px;
+    }
+    .headerContainer
+    {
+      background-position: 600px;
+    }
+    .lentilaContainer
+    {
+      padding: 10px;
+      width:100%;
+      height: auto;
+    }
+    .lentilaTitle
+    {
+      font-size: 40px;
+      padding-top: 60px;
+      padding-left: 30px;
+    }
+    .lentilaText
+    {
+      font-size: 20px;
+    }
+    .lentilaTextContainer
+    {
+      padding-left: 40px;
+      padding-right: 30px;
+      padding-bottom: 70px;
+    }
+  }
+@media only screen and (min-width:500px) and (max-width:768px)
+{
+  .footerInfo
+  {
+    font-size: 30px;
+  }
+  .footerText
+  {
+    font-size: 20px;
+  }
+  .headerContainer
+  {
+    background-position: 770px;
+  }
+  .lentilaContainer
+  {
+    padding: 10px;
+    width:100%;
+    height: auto;
+  }
+  .lentilaTitle
+  {
+    font-size: 40px;
+    padding-top: 60px;
+    padding-left: 30px;
+  }
+  .lentilaText
+  {
+    font-size: 20px;
+  }
+  .lentilaTextContainer
+  {
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+  }
+}
+@media only screen and (min-width:768px) and (max-width: 1200px)
+{
+  .headerContainer
+  {
+    background-position: 1200px;
+  }
+  .lentilaContainer
+  {
+    padding: 30px;
+    max-width: 100%;
+    height: auto;
+  }
+  .lentilaTextContainer
+  {
+    padding-bottom: 60px;
+  }
 }

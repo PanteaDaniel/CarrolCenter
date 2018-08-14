@@ -21,7 +21,7 @@
 	</header>
 	<div class="navbar pt-0 pb-0">
 
-	<div class="container">
+	<div class="container pr-1 pl-1">
 	<nav class="align-center">
 		<?php
         $args = array( 'theme_location' => 'top');
@@ -62,6 +62,15 @@
   </ul>
 </div>
 </nav>-->
-<div class="container-fluid p-0">
-  <img src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/headerimg.png" alt="header image" class="w-100 height-auto">
+<div class="container-fluid p-0 headerContainer">
+  <div class="lentilaContainer">
+		<div class="lentila">
+			<p class="lentilaTitle">Our Founder</p>
+			<div class="lentilaTextContainer">
+				<img src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/quotation_mark1_img.png" class="qoutationMark1" >
+				<p class="lentilaText">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				<img src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/quotation_mark2_img.png" class="qoutationMark2" >
+			</div>
+		</div>
+	</div>
 </div>

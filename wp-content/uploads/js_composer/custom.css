@@ -10,13 +10,17 @@
     padding:22px 32px;
     
 }
+
 .button:hover
 {
-    color:white;
+    color:#28389c;
     text-decoration:none;
-    background-color:#1f2b79;
+    background-color:white;
+    border:solid #28389c 4px;
+    
     
 }
+
 .title
 {
   font-family: "myriad pro";
@@ -30,4 +34,11 @@
   font-family: "myriad pro";
   font-size: 19px;
   font-weight: 500;
+}
+@media (max-width: 400px)
+{
+    .button
+    {
+        font-size:18px;
+    }
 }
