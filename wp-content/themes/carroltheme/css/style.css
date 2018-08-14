@@ -1,0 +1,48 @@
+.navbar
+{
+  background-color: #8d2c8a;
+}
+
+footer
+{
+  background-color: #28389c;
+  color: white;
+  font-family: "myriad pro";
+  font-size:41.98px;
+  font-weight: bold;
+  text-align: center;
+}
+.footerText
+{
+  color: #5a5a5a;
+  font-family: "myriad pro";
+  font-size: 20px;
+  display: inline;
+}
+.footerLogo1
+{
+  padding-bottom: 18px;
+}
+.footerLogo2
+{
+  margin: 20px;
+}
+.footerInfo
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footerLink
+{
+  text-decoration: none;
+  color:white;
+}
+.footerLink:hover
+{
+  text-decoration: none;
+  color:#fff8a6;
+}
+.footerTextContainer
+{
+  padding-top: 42px;
+}
