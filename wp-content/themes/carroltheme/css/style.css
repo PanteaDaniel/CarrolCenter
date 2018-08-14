@@ -5,6 +5,7 @@
 .headerContainer
 {
   background-image: url("headerimg.png");
+
   height: 390px;
 
 
@@ -198,5 +199,12 @@ footer
   .lentilaTextContainer
   {
     padding-bottom: 60px;
+  }
+}
+@media only screen and (min-width:1900px)
+{
+  .headerContainer
+  {
+    background-size: 100% auto;
   }
 }
