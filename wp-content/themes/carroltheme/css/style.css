@@ -96,6 +96,7 @@ footer
 {
   padding-top: 50px;
   padding-bottom: 50px;
+  font-size: 40px;
 }
 .footerLink
 {
@@ -111,6 +112,8 @@ footer
 {
   padding-top: 42px;
 }
+
+
 @media only screen and (max-width:500px){
     .footerInfo
     {
@@ -183,6 +186,48 @@ footer
     padding-right: 30px;
     padding-bottom: 70px;
   }
+}
+.button
+{
+    font-family:"myriad pro";
+    font-size:25px;
+    font-weight:bold;
+    text-decoration:none;
+    color: white;
+    border-radius:100px;
+    background-color:#28389c;
+    padding:22px 32px;
+
+}
+
+.button:hover
+{
+    color:#28389c;
+    text-decoration:none;
+    background-color:white;
+    border:solid #28389c 4px;
+}
+
+.title
+{
+  font-family: "myriad pro";
+
+  font-size: 40px;
+  font-weight: 700;
+  color: #8d2c8a;
+}
+.infoText
+{
+  font-family: "myriad pro";
+  font-size: 19px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 400px)
+{
+    .button
+    {
+        font-size:18px;
+    }
 }
 @media only screen and (min-width:768px) and (max-width: 1200px)
 {

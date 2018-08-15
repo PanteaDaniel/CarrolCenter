@@ -1,8 +1,8 @@
   <footer>
     <div class="container">
-      <p class="footerInfo">Location Information: <a href="https://maps.google.com/?q=770 Centre Street, Newton, MA"
-        target="_blank" class="footerLink">770 Centre Street, Newton, MA</a>
-        <a href="tel:02458 (617)" class="footerLink">02458 (617)</a>
+      <p class="footerInfo">Location Information: <a href="https://maps.google.com/?q=770 Centre Street, Newton, MA 02458"
+        target="_blank" class="footerLink">770 Centre Street, Newton, MA 02458</a>
+        <a href="tel:(617) 969-6200" class="footerLink">(617) 969-6200</a> | Toll-Free <a href="tel:(800) 852-3131" class="footerLink">(800) 852-3131</a>
       </p>
     </div>
   </footer>
