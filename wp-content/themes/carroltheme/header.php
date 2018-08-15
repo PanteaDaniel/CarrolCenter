@@ -19,7 +19,7 @@
 	<header>
 		<!--<h1><a href="<?php home_url('/')?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>-->
 	</header>
-	<div class="navbar pt-0 pb-0">
+	<div class="navbg pt-0 pb-0">
 
 	<div class="container pr-1 pl-1">
 	<nav class="align-center">
@@ -63,6 +63,8 @@
 </div>
 </nav>-->
 <div class="container-fluid p-0 headerContainer">
+	<div class="container">
+
   <div class="lentilaContainer">
 		<div class="lentila">
 			<p class="lentilaTitle">Our Founder</p>
@@ -73,4 +75,6 @@
 			</div>
 		</div>
 	</div>
+
+</div>
 </div>
