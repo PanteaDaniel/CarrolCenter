@@ -8,13 +8,23 @@
   </footer>
 <div class="text-center pr-3 pl-3 footerTextContainer">
   <p class="footerText">
-    © 2018 The Carroll Center for the Blind  |  <a href="#">Privacy Policy</a>  |  Website by
+    © 2018 The Carroll Center for the Blind  |  <a href="#" class="footerText">Privacy Policy</a>  |  Website by
   </p>
   <a href="https://www.insegment.com/" target="_blank"><img src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/logo1_img.png" class="footerLogo1" ></a>
 </div>
-<div class="text-center pr-3 pl-3 pb-4">
-  <a href="#"><img src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/logo2_img.png" class="footerLogo2 " ></a>
-  <a href="#"><img src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/logo3_img.png" class="footerLogo2 " ></a>
+<div class="container">
+
+<div class="text-center pr-sm-3 pl-sm-3 pb-4">
+  <div class="logo_imgContainer">
+    <?php dynamic_sidebar('footer1'); ?>
+  </div>
+  <div class="logo_imgContainer">
+    <?php dynamic_sidebar('footer2'); ?>
+  </div>
+
+  <!--<a href="#"><img src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/logo2_img.png" class="footerLogo2 " ></a>
+  <a href="#"><img src="<?php echo get_bloginfo( 'template_directory' ); ?>/images/logo3_img.png" class="footerLogo2 " ></a>-->
+</div>
 </div>
 <?php wp_footer(); ?>
  </body>

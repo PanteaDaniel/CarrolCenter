@@ -14,7 +14,7 @@
 .lentilaContainer
 {
   height: 343px;
-  width: 967px;
+  width: 681px;
 
   padding-top: 63px;
   margin-left: -114px;
@@ -36,7 +36,7 @@
   padding-left: 110px;
   padding-top: 50px;
   margin-bottom: 10px;
-  font-family: "myriad pro";
+
   font-weight: bold;
   font-size:60px;
   color: white;
@@ -44,7 +44,7 @@
 .lentilaText
 {
   display: inline;
-  font-family: "myriad pro";
+
   font-weight: bold;
   font-style: italic;
   font-size: 26px;
@@ -73,7 +73,7 @@ footer
 {
   background-color: #28389c;
   color: white;
-  font-family: "myriad pro";
+
   font-size:41.98px;
   font-weight: bold;
   text-align: center;
@@ -81,17 +81,27 @@ footer
 .footerText
 {
   color: #5a5a5a;
-  font-family: "myriad pro";
+
   font-size: 20px;
   display: inline;
 }
+
 .footerLogo1
 {
   padding-bottom: 18px;
+
 }
-.footerLogo2
+
+.widget
 {
-  margin: 20px;
+
+
+  list-style: none;
+}
+.logo_imgContainer
+{
+  display: inline-block;
+margin: 20px;
 }
 .footerInfo
 {
@@ -194,8 +204,8 @@ footer
 }
 .button
 {
-    font-family:"myriad pro";
-    font-size:25px;
+
+    font-size:23px;
     font-weight:bold;
     text-decoration:none;
     color: white;
@@ -215,7 +225,7 @@ footer
 
 .title
 {
-  font-family: "myriad pro";
+
 
   font-size: 40px;
   font-weight: 700;
@@ -223,7 +233,7 @@ footer
 }
 .infoText
 {
-  font-family: "myriad pro";
+
   font-size: 19px;
   font-weight: 500;
 }
@@ -238,7 +248,7 @@ footer
 {
     .button
     {
-        font-size:18px;
+        font-size:17px;
     }
 
 }
@@ -266,6 +276,7 @@ footer
     padding-left: 45px;
   }
 }
+
 @media only screen and (min-width:1200px) and (max-width: 1350px)
 {
   .lentilaTextContainer
